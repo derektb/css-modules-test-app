@@ -1,42 +1,6 @@
-/*@import "compass/reset";*/
-/*@import "compass/css3";*/
-
-
-
 body {
   background-color: #c0d4e8;
   padding-top: 5vh;
-}
-
-#mainPanel {
-  background-color: #e8e8e8;
-  margin: 0 auto;
-  width: 80vw;
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
-  border: solid 1px rgba(0,0,0,0.15);
-  padding: 1em;
-  font-size: 1.25em;
-  border-radius: 15px;
-}
-
-.content-panel {
-  background-color: #fff;
-  padding: 1em;
-  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-  border: solid 1px rgba(0,0,0,0.15);
-  border-radius: 10px;
-}
-
-#responsivePanel {
-  border-top: solid 4px #a32;
-}
-
-#buttonsPanel {
-  border-top: solid 4px #483;
-}
-
-.content-panel:not(:last-child) {
-  margin-bottom: 1em;
 }
 
 nav {
