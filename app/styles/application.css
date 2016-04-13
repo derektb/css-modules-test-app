@@ -4,6 +4,7 @@
   background-color: #e8e8e8;
   font-size: 1.25em;
   border-radius: 15px;
+  max-width: 40em;
 }
 
 .content-panel {
