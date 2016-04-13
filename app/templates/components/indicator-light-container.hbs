@@ -1,1 +1,5 @@
-{{yield}}
+{{#if inherit}}
+  {{indicator-light-bulb parentStyles=styles}}
+{{else}}
+  {{indicator-light-bulb}}
+{{/if}}

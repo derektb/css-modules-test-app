@@ -1,4 +1,8 @@
 <div id="buttonsPanel" class={{styles.panel}}>
   <h3>Whoops it's button time</h3>
   <p>Click to your heart's content.  I dare you.</p>
+  <h4>Indicator Buttons</h4>
+  <p>These buttons are experimenting with passing a parent's <code>styles</code> object to one of its children, and with how <code>composes</code> actually works (as opposed to the bass-ackwards way I kept thinking it worked).</p>
+  <p>The lefthand bulb is using its own styling, which renders it 'off'.  The righthand bulb has been passed its parent's stylesheet as an object, allowing it to define itself with the local class defined there.  Both bulbs are <code>composes</code>-ing the styling for their text from their parent, which uses its own local class as a parent selector.</p>
+  {{indicator-light-container inherit=false}} {{indicator-light-container inherit=true}}
 </div>

@@ -1,0 +1,14 @@
+/* these are purely the locally defined styles. "activated" button styles are handled by its parent, which will pass it the styles object it requires.  These "default" settings will be wholly ignored and overwritten, so everything meant to be kept should be duplicated into the overwriting styles css file. */
+.bulb {
+  display: block;
+  height: 5em; width: 5em;
+  margin: 0;
+  border-radius: 5px;
+  /* "off" */
+  background-color: #888;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1), inset 0px -2px #555, inset 0px -2px 20px 5px #666;
+}
+
+.text-effect {
+  composes: text-effect from './indicator-light-container.css';
+}

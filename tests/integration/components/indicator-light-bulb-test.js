@@ -6,13 +6,13 @@ moduleForComponent('indicator-light-bulb', 'Integration | Component | indicator 
 });
 
 test('it renders', function(assert) {
-  
+
   // Set any properties with this.set('myProperty', 'value');
   // Handle any actions with this.on('myAction', function(val) { ... });" + EOL + EOL +
 
   this.render(hbs`{{indicator-light-bulb}}`);
 
-  assert.equal(this.$().text().trim(), '');
+  assert.equal(this.$().text().trim(), 'CSSMODULES');
 
   // Template block usage:" + EOL +
   this.render(hbs`
@@ -21,5 +21,5 @@ test('it renders', function(assert) {
     {{/indicator-light-bulb}}
   `);
 
-  assert.equal(this.$().text().trim(), 'template block text');
+  assert.equal(this.$().text().trim(), 'CSSMODULES');
 });
