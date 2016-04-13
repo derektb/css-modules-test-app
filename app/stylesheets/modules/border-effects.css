@@ -1,0 +1,14 @@
+/* line 1, ../../styles/modules/border-effects.scss */
+.top-thick-buttons-border {
+  border-top: solid 4px #483;
+}
+
+/* line 5, ../../styles/modules/border-effects.scss */
+.top-thick-responsive-border {
+  border-top: solid 4px #a32;
+}
+
+/* line 9, ../../styles/modules/border-effects.scss */
+.top-thick-other-border {
+  border-top: solid 4px #84a;
+}

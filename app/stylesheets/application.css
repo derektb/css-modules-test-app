@@ -1,0 +1,50 @@
+/* line 1, ../styles/application.scss */
+.main-panel {
+  composes: padding-1em width-80vw margin-centered from './modules/layout.css';
+  composes: dimension-shadow from './modules/shadow-effects.css';
+  background-color: #e8e8e8;
+  font-size: 1.25em;
+  border-radius: 15px;
+  max-width: 40em;
+}
+
+/* line 10, ../styles/application.scss */
+.content-panel {
+  composes: content-panel from './modules/ui-elements.css';
+}
+
+/* line 14, ../styles/application.scss */
+.nav-button {
+  composes: nav-button from './modules/ui-elements.css';
+}
+
+/* line 18, ../styles/application.scss */
+.notice {
+  /* These are lifted from globalization's "styles.examples p", which cannot be composed from, not being a local style. */
+  display: block;
+  margin: 1em 3em 0 2em;
+  padding: 0.5em;
+  background-color: #def;
+  border-radius: 8px;
+}
+
+/* line 27, ../styles/application.scss */
+.notice span {
+  font-style: italic;
+  margin: 0 0.2em 0 0.5em;
+  font-size: 1.2em;
+}
+
+/* line 33, ../styles/application.scss */
+.notice code {
+  background-color: rgba(0, 0, 200, 0.1);
+  border: 1px solid rgba(0, 0, 200, 0.1);
+  padding-bottom: 0.1em;
+}
+
+/* line 39, ../styles/application.scss */
+code {
+  padding: 0em 0.1em;
+  position: relative;
+  bottom: 0.15em;
+}

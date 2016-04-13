@@ -1,0 +1,58 @@
+/* line 1, ../../styles/modules/ui-elements.scss */
+.content-panel__spacing-settings {
+  padding: 1em;
+  border-radius: 10px;
+  display: block;
+}
+
+/* line 7, ../../styles/modules/ui-elements.scss */
+.content-panel__unset-background {
+  composes: content-panel__spacing-settings;
+}
+
+/* line 11, ../../styles/modules/ui-elements.scss */
+.content-panel {
+  composes: occlusion-shadow from "./shadow-effects.css";
+  composes: content-panel__spacing-settings;
+  background-color: #fff;
+}
+
+/* line 17, ../../styles/modules/ui-elements.scss */
+.content-panel:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+/* line 21, ../../styles/modules/ui-elements.scss */
+.standard-button__no-color {
+  composes: occlusion-shadow from "./shadow-effects.css";
+  display: inline-block;
+  border-radius: 8px;
+}
+
+/* line 27, ../../styles/modules/ui-elements.scss */
+.standard-button__text-styles {
+  color: white;
+}
+
+/* line 31, ../../styles/modules/ui-elements.scss */
+.nav-button {
+  composes: standard-button__no-color;
+  composes: standard-button__text-styles;
+  background-color: #00bade;
+  box-shadow: inset 0px -2px #00759a;
+  padding: 0.3em 0.5em 0.4em;
+  text-decoration: none;
+}
+
+/* line 40, ../../styles/modules/ui-elements.scss */
+.nav-button:visited {
+  background-color: #65a4b1;
+  box-shadow: inset 0px -2px #437181;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* line 46, ../../styles/modules/ui-elements.scss */
+.nav-button:active {
+  background-color: #0086ab;
+  box-shadow: inset 0px 2px #005378;
+}

@@ -1,6 +1,7 @@
 body {
   background-color: #c0d4e8;
   padding-top: 5vh;
+  padding-bottom: 10vh;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -9,6 +10,8 @@ nav {
   text-align: center;
 }
 
-:global .zorp {
-  color: red;
+:global {
+  .zorp {
+    color: red;
+  }
 }

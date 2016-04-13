@@ -1,0 +1,6 @@
+/* line 1, ../styles/responsive.scss */
+.panel {
+  /* is a type of Content Panel */
+  composes: content-panel from './modules/ui-elements.css';
+  composes: top-thick-responsive-border from './modules/border-effects.css';
+}

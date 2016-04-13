@@ -1,0 +1,7 @@
+/* line 1, ../styles/buttons.scss */
+.panel {
+  /* is a type of Content Panel */
+  composes: content-panel from './application.css';
+  /* has a fetching green stripe along its top */
+  composes: top-thick-buttons-border from './modules/border-effects.css';
+}

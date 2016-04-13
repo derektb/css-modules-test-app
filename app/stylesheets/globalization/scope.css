@@ -1,0 +1,25 @@
+/* line 1, ../../styles/globalization/scope.scss */
+.quote {
+  text-align: left;
+  font-size: 1.5em;
+  opacity: 0.8;
+  margin-left: 1em;
+  margin-right: 2em;
+  padding-left: 0.5em;
+  border-left: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+/* line 11, ../../styles/globalization/scope.scss */
+.gulliver {
+  color: red;
+}
+
+/* line 15, ../../styles/globalization/scope.scss */
+.inset-coffer {
+  composes: inset-coffer from '../globalization.css';
+}
+
+/* line 19, ../../styles/globalization/scope.scss */
+.inset-coffer .gulliver {
+  color: green;
+}

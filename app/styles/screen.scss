@@ -1,0 +1,22 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+@import "app.scss";
+@import "application.scss";
+@import "buttons.scss";
+@import "globalization";
+@import "responsive.scss";
+
+@import "components/indicator-light-bulb.scss";
+@import "components/indicator-light-container.scss";
+
+@import "globalization/scope.scss";
+
+@import "modules/border-effects.scss";
+@import "modules/layout.scss";
+@import "modules/shadow-effects.scss";
+@import "modules/ui-elements.scss";

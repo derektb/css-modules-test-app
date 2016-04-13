@@ -1,0 +1,14 @@
+/* line 1, ../../styles/modules/layout.scss */
+.margin-centered {
+  margin: 0 auto;
+}
+
+/* line 5, ../../styles/modules/layout.scss */
+.width-80vw {
+  width: 80vw;
+}
+
+/* line 9, ../../styles/modules/layout.scss */
+.padding-1em {
+  padding: 1em;
+}
