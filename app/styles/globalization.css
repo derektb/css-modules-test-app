@@ -1,0 +1,54 @@
+.panel {
+  /* is a type of Content Panel */
+  composes: content-panel from './modules/ui-elements.css';
+  composes: top-thick-other-border from './modules/border-effects.css';
+}
+
+.examples {
+  composes: bevel-text-shadow from './modules/shadow-effects.css';
+  margin-bottom: 1em;
+}
+
+:global(#globalizationPanel) .examples p {
+  display: block;
+  margin: 1em 3em 0 2em;
+  padding: 0.5em;
+  background-color: #def;
+  border-radius: 8px;
+}
+
+:global(#globalizationPanel section .global-red) {
+  color: red;
+}
+
+.panel :global(section .local-green) {
+  color: green
+}
+
+:global(#mainPanel #globalizationPanel) .cascaded-blue {
+  color: blue;
+}
+
+.inset-coffer {
+  composes: inset-shadow border-shade bevel-text-shadow from './modules/shadow-effects.css';
+  border-radius: 8px;
+  padding: 1em;
+  margin: 1em;
+}
+
+.inset-coffer .gulliver {
+  color: green;
+}
+
+.inset-coffer :global(#onScope) {
+  padding: 0.5em 1em;
+  font-style: italic;
+  text-align: center;
+  background-color: #345;
+  color: #eee;
+  border-radius: 5px;
+}
+
+.button {
+  composes: nav-button from './modules/ui-elements.css';
+}

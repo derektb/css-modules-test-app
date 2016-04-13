@@ -1,6 +1,5 @@
-.responsive-route-panel {
+.panel {
   /* is a type of Content Panel */
-  composes: content-panel from './application.css';
-  /* has a fetching red stripe along its top */
-  composes: top-thick-red-border from './modules/border-effects.css';
+  composes: content-panel from './modules/ui-elements.css';
+  composes: top-thick-responsive-border from './modules/border-effects.css';
 }

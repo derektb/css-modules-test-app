@@ -7,7 +7,10 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('responsive');
-  this.route('buttons');
+  this.route('buttons', function() {});
+  this.route('globalization', function() {
+    this.route('scope');
+  });
 });
 
 export default Router;

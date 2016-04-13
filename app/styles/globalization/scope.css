@@ -1,0 +1,21 @@
+.quote {
+  text-align: left;
+  font-size: 1.5em;
+  opacity: 0.8;
+  margin-left: 1em;
+  margin-right: 2em;
+  padding-left: 0.5em;
+  border-left: solid 1px rgba(255,255,255,0.2);
+}
+
+.gulliver {
+  color: red;
+}
+
+.inset-coffer {
+  composes: inset-coffer from '../globalization.css';
+}
+
+.inset-coffer .gulliver {
+  color: green;
+}

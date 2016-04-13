@@ -1,0 +1,14 @@
+<div id="globalizationPanel" class={{styles.panel}}>
+  <h3>How Does It Work?</h3>
+  <p>How does css-modules work?  We just don't know.  This is an opportunity to test some stuff out.</p>
+  <p>In the following section, the p tag is styled to have a coffer around it.  However, the styling is applied only to p tags that are children of the section's class, which is fingerprinted.</p>
+  <section class={{styles.examples}}>
+    <p class="global-red">This should be red. All of the styling here is globally-defined, but is stored within this route's stylesheet.</p>
+    <p class="local-green">This should be green. The styling here is applied to the global class, but only those members of the global class that are children of the main div's fingerprinted class.</p>
+    <p class={{styles.cascaded-blue}}>This should be blue.  The class on this paragraph is locally defined, but it only has styling defined for when it is a child of so-and-so globally-defined parents.  This is a huge relief, ember-responsive-wise, as it means fingerprinted classes can still receive styling from containers much higher in the hierarchy!</p>
+  </section>
+  {{link-to "Show Me More Scoping Sorcery" "globalization.scope" class=styles.button}}
+  <section class={{styles.inset-coffer}}>
+    {{outlet}}
+  </section>
+</div>

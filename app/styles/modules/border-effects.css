@@ -1,7 +1,11 @@
-.top-thick-green-border {
+.top-thick-buttons-border {
   border-top: solid 4px #483;
 }
 
-.top-thick-red-border {
+.top-thick-responsive-border {
   border-top: solid 4px #a32;
+}
+
+.top-thick-other-border {
+  border-top: solid 4px #84a;
 }

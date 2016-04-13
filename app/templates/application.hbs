@@ -6,7 +6,9 @@
 
     <quote>To be or not to be.  That is the question: whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles, and, by opposing, end them.  To die, to sleep: no more! And by a sleep we mean to end the heartache, and the thousand natural shocks that flesh is heir to? 'Tis a consummation devoutly to be wished.</quote>
 
-    <nav>{{link-to "Home" "application" class=""}} {{link-to "Buttons" "buttons" class=""}} {{link-to "Responsive" "responsive" class=""}}</nav>
+    <p class={{styles.notice}}><span>Note:</span> These <code>.nav-buttons</code> are composed in full from a standard, modular <code>ui-elements.css</code> style.  All of their link-related pseudoselectors, however, still apply.  This is not something I would expect from the get-go, but it makes sense; when you compose from another class, you're not making a new class; you're saying, "hey, go grab that local class over there and use it here."</p>
+
+    <nav>{{link-to "Home" "application" class=styles.nav-button}} {{link-to "Buttons" "buttons" class=styles.nav-button}} {{link-to "Responsive" "responsive" class=styles.nav-button}} {{link-to "Local/Global Experimentation" "globalization" class=styles.nav-button}}</nav>
   </div>
   {{outlet}}
 </div>
