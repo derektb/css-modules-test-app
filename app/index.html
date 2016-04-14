@@ -8,10 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{content-for 'head'}}
-
-    <link rel="stylesheet" href="assets/vendor.css">
-    <link rel="stylesheet" href="dist/assets/app.css">
-    <link rel="stylesheet" href="assets/css-modules-test-app.css">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
 
     {{content-for 'head-footer'}}
   </head>
