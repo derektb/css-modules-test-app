@@ -14,8 +14,8 @@
 
 .inset-coffer {
   composes: inset-coffer from '../globalization.css';
-}
-
-.inset-coffer .gulliver {
-  color: green;
+  
+  .gulliver {
+    color: green;
+  }
 }

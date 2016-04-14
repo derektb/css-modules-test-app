@@ -5,18 +5,18 @@
 
 @import "compass/reset";
 
-@import "app.scss";
-@import "application.scss";
-@import "buttons.scss";
-@import "globalization";
-@import "responsive.scss";
+@import "app";
+@import "application";
+@import "buttons";
+// @import "globalization";
+@import "responsive";
 
-@import "components/indicator-light-bulb.scss";
-@import "components/indicator-light-container.scss";
+@import "components/indicator-light-bulb";
+@import "components/indicator-light-container";
 
-@import "globalization/scope.scss";
+@import "globalization/scope";
 
-@import "modules/border-effects.scss";
-@import "modules/layout.scss";
-@import "modules/shadow-effects.scss";
-@import "modules/ui-elements.scss";
+@import "modules/border-effects";
+@import "modules/layout";
+@import "modules/shadow-effects";
+@import "modules/ui-elements";
